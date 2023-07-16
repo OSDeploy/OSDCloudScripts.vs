@@ -57,7 +57,7 @@ function Start-OSDCloudScriptsGUI {
     #=================================================
     #   OSDCloudScriptsGUI.ps1
     #=================================================
-    & "$($MyInvocation.MyCommand.Module.ModuleBase)\Project\MainWindow.ps1"
+    & "$($MyInvocation.MyCommand.Module.ModuleBase)\MainWindow.ps1"
     #=================================================
 }
 Export-ModuleMember -Function Start-OSDCloudScriptsGUI
